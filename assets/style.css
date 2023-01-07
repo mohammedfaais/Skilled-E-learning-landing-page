@@ -59,7 +59,7 @@ main{
     overflow: hidden;
 }
 
-.section-1{
+.sec-1{
     display: flex;
 }
 
@@ -86,4 +86,41 @@ main{
 
 .sec-1__left-side .btn {
     background-image: var(--colors-g-magenta-orange);
+}
+
+.sec-2{
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    margin-left: 80px;
+}
+
+.card{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    padding: 20px 20px 0px 20px;
+    box-shadow: 10px 10px 10px 10px #b9b3b3;
+}
+
+.card h3{
+    margin-top: 30px;
+}
+
+.card img{
+    width: 40px;
+    position: absolute;
+    top: -20px;
+}
+
+.card p{
+    width: 200px;
+    margin: 20px 0px;
+    color: var(--colors-silver);
+}
+
+.card a{
+    color: var(--colors-pink);
+    font-size: 16px;
+    font-weight: bold;
 }
