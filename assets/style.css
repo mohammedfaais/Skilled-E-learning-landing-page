@@ -1,0 +1,71 @@
+:root {
+    --colors-dark-blue-gray: #666ca3;
+    --colors-yankees-blue: #13183f;
+    --colors-silver: #83869a;
+    --colors-pink: #f74780;
+    --colors-carnation-pink: #ffa7c3;
+    --colors-white: #ffffff;
+    --colors-g-magenta-orange: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+    --colors-g-magenta-blue: linear-gradient(
+    180deg,
+    #4851ff -54.32%,
+    #f02aa6 100%
+  );
+    --colors-g-hover: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  );
+    --fonts-main: "Plus Jakarta Sans", sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.btn{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(23, 23, 23);
+    color: #fff;
+    border-radius: 20px;
+}
+
+.logo-img{
+    width: 80px;
+}
+
+main{
+    position: relative;
+    top: -10%;
+    overflow: hidden;
+}
+
+.section-1{
+    display: flex;
+}
+
+.sec-1__left-side{
+    margin-left: 30px;
+    margin-top: 300px;
+}
+
+.sec-1__right-side .banner-img{
+    width: 100%;
+    margin-left: 300px;
+}
