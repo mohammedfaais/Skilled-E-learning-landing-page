@@ -33,12 +33,15 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 30px;
+    margin: 30px 80px;
+}
+
+nav .btn{
+    margin-right: 150px;
 }
 
 .btn{
-    padding: 10px;
-    margin: 10px;
+    padding: 10px 15px;
     border: none;
     cursor: pointer;
     background-color: rgb(23, 23, 23);
@@ -51,8 +54,8 @@ nav{
 }
 
 main{
-    position: relative;
-    top: -10%;
+    position: absolute;
+    top: -20%;
     overflow: hidden;
 }
 
@@ -61,11 +64,26 @@ main{
 }
 
 .sec-1__left-side{
-    margin-left: 30px;
+    margin-left: 80px;
     margin-top: 300px;
 }
 
 .sec-1__right-side .banner-img{
     width: 100%;
-    margin-left: 300px;
+    margin-left: 200px;
+}
+
+.sec-1__left-side h1 {
+    font-size: 45px;
+}
+
+.sec-1__left-side p {
+    line-height: 1.2;
+    width: 325px;
+    margin: 20px 0px;
+    color: var(--colors-silver);
+}
+
+.sec-1__left-side .btn {
+    background-image: var(--colors-g-magenta-orange);
 }
