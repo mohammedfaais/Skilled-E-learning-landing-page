@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap');
+
 :root {
     --colors-dark-blue-gray: #666ca3;
     --colors-yankees-blue: #13183f;
@@ -27,6 +29,7 @@
 
 body{
     box-sizing: border-box;
+    font-family: var(--fonts-main);
 }
 
 nav{
@@ -53,7 +56,11 @@ nav .btn{
     width: 80px;
 }
 
-main{
+/* main{
+ 
+} */
+
+.main-section{
     position: absolute;
     top: -20%;
     overflow: hidden;
@@ -96,15 +103,20 @@ main{
 }
 
 .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     position: relative;
     width: 200px;
     height: 200px;
     padding: 20px 20px 0px 20px;
-    box-shadow: 10px 10px 10px 10px #b9b3b3;
+    box-shadow: 3px 3px 3px 0px #b9b3b3;
+    border-radius: 8px;
 }
 
 .card h3{
-    margin-top: 30px;
+    font-weight: 800;
+    margin: 10px 0px;
 }
 
 .card img{
@@ -115,12 +127,43 @@ main{
 
 .card p{
     width: 200px;
-    margin: 20px 0px;
     color: var(--colors-silver);
+    margin-bottom: 10px;
 }
 
 .card a{
     color: var(--colors-pink);
     font-size: 16px;
     font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.info-card{
+    display: flex;
+    justify-content: flex-start;
+    background-image: var(--colors-g-magenta-orange);
+    color: var(--colors-white);
+}
+
+.info-card h2{
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: var(--colors-yankees-blue);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+
+footer img{
+    margin-left: 80px;
+}
+
+footer button{
+    margin-right: 200px;
+    background-image:var(--colors-g-magenta-blue);
 }
